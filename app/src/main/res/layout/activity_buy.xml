@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    tools:context=".buy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="350dp"
+        android:src="@drawable/agni"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="moto"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColorHighlight="@color/black"
+        android:textSize="40sp"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="buy now"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="650dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="cart"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:layout_marginTop="650dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

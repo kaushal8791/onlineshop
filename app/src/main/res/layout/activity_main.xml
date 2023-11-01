@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" >
+
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:drawableLeft="@drawable/ic_baseline_home_24"/>
+        <Button
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_category_24"/>
+        <Button
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"/>
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_notifications_none_24"/>
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_shopping_cart_24"/>
+
+
+
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="50dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageButton
+                   android:id="@+id/agni"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/agni"
+                   android:scaleType="fitCenter"/>
+               <ImageButton
+                   android:id="@+id/vi_vo"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/vivo"
+                   android:scaleType="fitCenter"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageButton
+                   android:id="@+id/tt"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/tt"
+                   android:scaleType="fitCenter"/>
+               <ImageButton
+                   android:id="@+id/as"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/as"
+                   android:scaleType="fitCenter"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageButton
+                   android:id="@+id/h"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/h"
+                   android:scaleType="fitCenter"/>
+               <ImageButton
+                   android:id="@+id/vv"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/vv"
+                   android:scaleType="fitCenter"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageButton
+                   android:id="@+id/vvv"
+                   android:layout_width="210dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/vvv"
+                   android:scaleType="fitCenter"/>
+               <ImageButton
+                   android:id="@+id/hd"
+                   android:layout_width="200dp"
+                   android:layout_height="230dp"
+                   android:src="@drawable/hd"
+                   android:scaleType="fitCenter"/>
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>
